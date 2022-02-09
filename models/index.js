@@ -1,5 +1,5 @@
-const Comment = require('./comment');
-const Vote = require('./vote');
+const Comment = require('./Comment');
+const Vote = require('./Vote');
 const User = require('./User');
 const Post = require("./Post");
 
