@@ -17,6 +17,7 @@ module.exports = {
             .replace('http://','')
             .replace('https://','')
             .replace('www.','')
+            .replace('localhost:3001','')
             .split('/')[0]
             .split('?')[0];
     }
